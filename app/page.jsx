@@ -1,8 +1,12 @@
 import {Button} from '@/components/ui/button';
+import HeroSection from '@/components/hero';
+
+
 export default function Home(){
   return(
     <div>
-    <Button>he</Button>
+    <div className = 'grid-background'></div>
+    <HeroSection />
     </div>
   )
 }
